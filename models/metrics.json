@@ -1,0 +1,48 @@
+{
+  "diabetes": {
+    "data_source": "synthetic demo data",
+    "n_train": 4500,
+    "n_test": 1500,
+    "positive_rate": 0.384,
+    "served_model": "logistic_regression",
+    "models": {
+      "logistic_regression": {
+        "accuracy": 0.707,
+        "precision": 0.647,
+        "recall": 0.523,
+        "f1": 0.578,
+        "roc_auc": 0.76
+      },
+      "random_forest": {
+        "accuracy": 0.701,
+        "precision": 0.638,
+        "recall": 0.51,
+        "f1": 0.567,
+        "roc_auc": 0.745
+      }
+    }
+  },
+  "heart": {
+    "data_source": "synthetic demo data",
+    "n_train": 4500,
+    "n_test": 1500,
+    "positive_rate": 0.545,
+    "served_model": "logistic_regression",
+    "models": {
+      "logistic_regression": {
+        "accuracy": 0.735,
+        "precision": 0.746,
+        "recall": 0.78,
+        "f1": 0.762,
+        "roc_auc": 0.805
+      },
+      "random_forest": {
+        "accuracy": 0.712,
+        "precision": 0.71,
+        "recall": 0.796,
+        "f1": 0.751,
+        "roc_auc": 0.786
+      }
+    }
+  }
+}

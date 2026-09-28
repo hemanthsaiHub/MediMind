@@ -1,0 +1,6 @@
+tests/
+ml/
+data/
+.github/
+.venv/
+.env
